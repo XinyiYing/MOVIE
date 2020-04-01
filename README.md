@@ -1,6 +1,4 @@
 # MOVIE Matlab
-Video Quality Assessment metric
-
 Email: yingxinyi18@nudt.edu.cn
 
 MOVIE operates on reference and distorted videos provided in planar
@@ -39,3 +37,8 @@ transfer video (*.avi, *.mj2, *.mpg, *.wmv, *.asf, *.asx, *.m4v, *.mp4, *.mov) t
 3. \temp
 
 Intermediate variables
+
+Thanks:
+--------
+Kalpana Seshadrinathan    Email: kalpana.seshadrinathan@ieee.org
+Longguang Wang     Email: wanglongguang14@nudt.edu.cn
