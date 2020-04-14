@@ -1,17 +1,12 @@
-# MOVIE Matlab
-Email: yingxinyi18@nudt.edu.cn
+# MOVIE 
+Matlab code framework of Video Quality Assessment metric T-MOVIE and MOVIE.
 
-MOVIE operates on reference and distorted videos provided in planar
-YUV 4:2:0 format. 
-
-This software is best used in systems with RAM equal to or larger than
-2GB (our testing environment used 2GB RAM systems). Execution speed
-will suffer in systems with less RAM.
+## Environment requirments
+This software is best used in systems with RAM equal to or larger than 2GB (our testing environment used 2GB RAM systems). Execution speed will suffer in systems with less RAM.
 
 The version of Matlab should over Matlab 2014a to allow the function "VideoWriter()"
 
-Command Line Arguments:
------------------------
+## Command Line Arguments:
 For reference and distorted images:
 
          run_movie_image('test_data\im\', [width,height])
@@ -22,8 +17,7 @@ For reference and distorted movies:
 
 See demo_test.m for details.
 
-Results:
---------
+## Results:
 1. \output_data\output
 
 MOVIE, T-MOVIE, S-MOVIE metric in *.txt
@@ -38,7 +32,22 @@ transfer video (*.avi, *.mj2, *.mpg, *.wmv, *.asf, *.asx, *.m4v, *.mp4, *.mov) t
 
 Intermediate variables
 
-Thanks:
---------
+## Citiation
+```
+@Article{Seshadrinathan2010Motion,
+  author    = {Kalpana Seshadrinathan and Alan C. Bovik},
+  title     = {Motion Tuned Spatio-Temporal Quality Assessment of Natural Videos},
+  journal   = {{IEEE} Trans. Image Process.},
+  year      = {2010},
+  volume    = {19},
+  number    = {2},
+  pages     = {335--350},
+  doi       = {10.1109/TIP.2009.2034992},
+}
+```
 
+## Contact
+Please contact us at ***yingxinyi18@nudt.edu.cn*** for any question.
+
+## Thanks:
 Longguang Wang   https://github.com/LongguangWang/Video-Quality-Assessment
