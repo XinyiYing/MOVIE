@@ -1,6 +1,6 @@
 function [H,W]=im2yuv(img_dir, img_size)
 % H, W is the width and height of test images (or required szie of test_image cropped from the orignal data).
-% hr_dir is the path of images folder. 
+% img_dir is the path of images folder. 
 %% im2avi
 output_dir = 'output_data'; % path to save output data (*.avi, *.yuv)
 mkdir(output_dir);
