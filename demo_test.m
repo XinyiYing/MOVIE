@@ -1,5 +1,5 @@
 %% demo_test
-% run_movie_image('test_data\im\', [])
+run_movie_image('test_data\im\', [])
 % Parameters:
 % test images path . if empty, automatically set 'test_data\im\'
 % required heigth and weigth of images.if empty, automatically set the width and height of images.
