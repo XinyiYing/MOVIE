@@ -22,7 +22,7 @@ See demo_test.m for details.
 
 MOVIE, T-MOVIE, S-MOVIE metric in *.txt
 
-2. \movie
+2. \video
 
 transfer images to video (*.yuv)
 
