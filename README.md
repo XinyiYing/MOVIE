@@ -6,6 +6,9 @@ This software is best used in systems with RAM equal to or larger than 2GB (our 
 
 The version of Matlab should over Matlab 2014a to allow the function "VideoWriter()"
 
+"ffmpeg.exe" is required in "./tool/ffmpeg.exe".  Download ffmpeg.exe in https://pan.baidu.com/s/1utk27rQiW5tHKSlnCajQLw   Code：lbqk
+You can also download ffmpeg in official website：https://ffmpeg.zeranoe.com/builds/
+
 ## Command Line Arguments:
 For reference and distorted images:
 
