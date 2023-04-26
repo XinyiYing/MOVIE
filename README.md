@@ -20,18 +20,46 @@ For reference and distorted movies:
 
 See demo_test.m for details.
 
+## Inputs:
+1. Image inputs
+```
+  ├──./test_data/
+  │    ├── im
+  │    │    ├── calendar
+  │    │    │    ├── hr
+  │    │    │    │    ├── 01.png
+  │    │    │    │    ├── 02.png
+  │    │    │    │    ├── ...
+  │    │    │    ├── sr
+  │    │    │    │    ├── 01.png
+  │    │    │    │    ├── 02.png
+  │    │    │    │    ├── ...
+  │    │    ├── city
+  │    │    ├── ... 
+  ```
+2. Video inputs
+```
+  ├──./test_data/
+  │    ├── video
+  │    │    ├── calendar
+  │    │    │    ├── hr.avi
+  │    │    │    ├── sr.avi
+  │    │    ├── city
+  │    │    ├── ... 
+  ```
+
 ## Results:
-1. \output_data\output
+1. /output_data/output
 
 MOVIE, T-MOVIE, S-MOVIE metric in *.txt
 
-2. \video
+2. /video
 
 transfer images to video (*.yuv)
 
 transfer video (*.avi, *.mj2, *.mpg, *.wmv, *.asf, *.asx, *.m4v, *.mp4, *.mov) to video (*.yuv)
 
-3. \temp
+3. /temp
 
 Intermediate variables
 
